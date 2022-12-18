@@ -1,27 +1,25 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Adm;
 
-use App\Models\Post;
+use App\Http\Controllers\Controller;
+use App\Models\City;
 use Illuminate\Http\Request;
 
-class PostController extends Controller
+class CityController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
         //
     }
+    public function events(){
+        return view('city.almatyevents');
+    }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    public function almaty(){
+        return view('city.almaty');
+    }
+
     public function create()
     {
         //
@@ -41,10 +39,10 @@ class PostController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Post  $post
+     * @param  \App\Models\City  $city
      * @return \Illuminate\Http\Response
      */
-    public function show(Post $post)
+    public function show(City $city)
     {
         //
     }
@@ -52,10 +50,10 @@ class PostController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Post  $post
+     * @param  \App\Models\City  $city
      * @return \Illuminate\Http\Response
      */
-    public function edit(Post $post)
+    public function edit(City $city)
     {
         //
     }
@@ -64,10 +62,10 @@ class PostController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Post  $post
+     * @param  \App\Models\City  $city
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Post $post)
+    public function update(Request $request, City $city)
     {
         //
     }
@@ -75,10 +73,10 @@ class PostController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Post  $post
+     * @param  \App\Models\City  $city
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Post $post)
+    public function destroy(City $city)
     {
         //
     }

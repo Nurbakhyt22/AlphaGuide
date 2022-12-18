@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Resume;
 use Illuminate\Http\Request;
 
 class MainController extends Controller
@@ -17,7 +18,11 @@ class MainController extends Controller
     }
 
     public function main(){
-        return view('page.main');
+        return view('page.main' , ['resumes' => Resume::all()]);
+    }
+
+    public function guide(){
+        return view('page.guide' , ['resumes' => Resume::all()]);
     }
 
     /**

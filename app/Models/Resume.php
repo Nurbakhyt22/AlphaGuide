@@ -12,6 +12,14 @@ class Resume extends Model
         'name',
         'surname',
         'birthdate',
-        'experience'
+        'experience',
+        'email',
+        'user_id',
+        'active',
+        'img'
     ];
+
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
 }

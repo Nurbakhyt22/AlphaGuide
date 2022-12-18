@@ -64,6 +64,7 @@
             @yield('content')
         </main>
     </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
     <footer class="py-3 bg-black">
         <div class="container px-5">
             <div class="">

@@ -15,10 +15,14 @@ return new class extends Migration
     {
         Schema::create('resumes', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')
+                ->nullable()
+                ->constrained()
+                ->nullOnDelete();
             $table->string('name');
             $table->string('surname');
             $table->date('birthdate');
-            $table->tinyInteger('experience');
+            $table->text('experience');
             $table->timestamps();
         });
     }

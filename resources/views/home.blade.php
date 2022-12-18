@@ -78,17 +78,57 @@
     <div class="container px-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/01.jpg" alt="..." /></div>
+                <div class="p-5"><img class="img-fluid rounded-circle" src="https://strategy2050.kz/upload/iblock/204/60877af9e9e372a2aaf6596a3d62877f.jpg" alt="..." /></div>
             </div>
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5">
-                    <h2 class="display-4">For those about to rock...</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    <h2 class="display-4">Bizdin joba jaily</h2>
+                    <p>Qazaqstannyń ár qalasynyń tabıǵaty men kórkem jerlerіmen, ıaǵnı týrızmіmen tanystyrý.Qazіrgі tańda týrızm salasyna qyzyǵatyn adamdardyń sany kún saıyn artyp kele jatyr. Osyǵan baılanysty bіz sіzderge ózіmіzdіń jobany usynamyz.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="https://www.launch-marketing.com/wp-content/uploads/2020/08/GettyImages-1140693058-1024x655.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h2 class="display-4">Bız sızder üşın nestei alamyz?</h2>
+                    <p>• qalağa jañadan kelgen qonaqtarğa qalany tanystyru <br>
+                        • tiımdı bağadağy ūsynystar <br>
+                        • tañdalğan aqşa kölemıne bailanysty arnaiy saiahat paketterı <br>
+                        • är kün saiyn bolatyn ıs-şaralardyñ( konsert, kino, festiväl, marafon ) tızımderın körsetu <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Content section 3-->
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="https://www.launch-marketing.com/wp-content/uploads/2020/08/GettyImages-1140693058-1024x655.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">Bız sızder üşın nestei alamyz?</h2>
+                    <p> • qalağa jañadan kelgen qonaqtarğa qalany tanystyru
+                        • tiımdı bağadağy ūsynystar
+                        • tañdalğan aqşa kölemıne bailanysty arnaiy saiahat paketterı
+                        • är kün saiyn bolatyn ıs-şaralardyñ( konsert, kino, festiväl, marafon ) tızımderın körsetu
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Footer-->
 <footer class="py-3 bg-black">
     <div class="container px-5"><p class="m-0 text-center text-white small">Avtorlyq quqyq  &copy; AlphaGuide saiaxatshylarg'a arnalg'an 2022</p></div>
