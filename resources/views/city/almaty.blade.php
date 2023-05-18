@@ -118,44 +118,49 @@
 
             <!-- Call to Action-->
             <div class="card text-white bg-secondary my-5 py-4 text-center">
-                <div class="card-body"><p class="text-white m-0"><b>Almaty qalasyndaǵy tamaqtaný oryndary</b></p></div>
+                <div class="card-body"><p class="text-white m-0"><b>Almaty qalasyndaǵy jergilikti Gidter</b></p></div>
             </div>
             <!-- Content Row-->
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Loko kafesi</h2>
-                            <img src="https://sxodim.com/uploads/posts/2022/02/09/optimized/e3c42e4a0c009bddaf16556ec314fea9_1400x790-q-85.jpg" alt="" style="width: 325px; height: 190px">
-                            <p class="card-text"><b>Ortasha chek 5000 tng.​ 70 adamdyq oryn</b></p>
-                            <p>Panazııalyq taǵamdar Eýropalyq taǵamdar Ústeldі brondaý Jazǵy terrassalar Banketter</p>
-                        </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="https://2gis.kz/almaty/search/loko/firm/70000001056262668/76.870328%2C43.213749/tab/info?m=76.909243%2C43.241044%2F13.09">Tolyǵyraq</a></div>
+            <section id="team" class="team">
+                <div class="container">
+
+                    <div class="section-title" data-aos="zoom-out">
+                        <h2>Gidtar</h2>
+                        <p>Tizimder</p>
                     </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Del Papa</h2>
-                            <img src="https://restolife.kz/upload/information_system_6/5/0/8/item_5080/information_items_property_17200.jpg" alt=""style="width: 325px; height: 190px">
-                            <p class="card-text"><b>Orta eseppen 7000 teńge.Tańǵy as 09:00-16:00 64 orynǵa deıіn</b></p>
-                            <p>Sharap meıramhanasy.Italıandyq ashana. Tańǵy as. Ústeldі brondaý. Alyp ketýge tapsyrys. Sharap tіzіmі. Balalar mázіrі. Jazǵy terrassalar. Balalar buryshy</p>
+
+                    <div class="row">
+
+                        <div class="row">
+                            @foreach($resumes as $resume)
+                                @if($resume->active)
+                                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                                        <div class="member" data-aos="fade-up">
+                                            <div class="member-img">
+                                                <img src="https://i.stack.imgur.com/l60Hf.png" class="img-fluid" alt="">
+                                                <div class="social">
+                                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="member-info">
+                                                <h4>{{$resume->name}} {{$resume->surname}}</h4>
+                                                <span>Guide</span>
+
+                                                <a href="{{route('resume.show' , $resume->id)}}" class="btn btn-outline-primary">Tolygyraq</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endif
+                            @endforeach
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="https://2gis.kz/almaty/search/del%20papa/firm/70000001024492954/76.942796%2C43.259982/tab/info">Tolyǵyraq</a></div>
+
                     </div>
+
                 </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Sandyq</h2>
-                            <img src="https://tengritravel.kz/userdata/news/2021/news_449003/thumb_m/photo_375385.jpeg" alt="" style="width: 325px; height: 190px">
-                            <p class="card-text"><b>Orta eseppen 10000 teńge. 60 orynǵa deıіn</b></p>
-                            <p>Qazaq taǵamdary. Dastarhanǵa tapsyrys berý</p>
-                        </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="https://2gis.kz/almaty/firm/70000001057699052/tab/info">Tolyǵyraq</a></div>
-                    </div>
-                </div>
-            </div>
+            </section><!-- End Team Section -->
         </div>
     </div>
 

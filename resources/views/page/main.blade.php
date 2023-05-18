@@ -628,46 +628,7 @@
     </section><!-- End F.A.Q Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-        <div class="container">
 
-            <div class="section-title" data-aos="zoom-out">
-                <h2>Gidtar</h2>
-                <p>Tizimder</p>
-            </div>
-
-            <div class="row">
-
-                <div class="row">
-                    @foreach($resumes as $resume)
-                        @if($resume->active)
-                            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                <div class="member" data-aos="fade-up">
-                                    <div class="member-img">
-                                        <img src="https://i.stack.imgur.com/l60Hf.png" class="img-fluid" alt="">
-                                        <div class="social">
-                                            <a href=""><i class="bi bi-twitter"></i></a>
-                                            <a href=""><i class="bi bi-facebook"></i></a>
-                                            <a href=""><i class="bi bi-instagram"></i></a>
-                                            <a href=""><i class="bi bi-linkedin"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="member-info">
-                                        <h4>{{$resume->name}} {{$resume->surname}}</h4>
-                                        <span>Guide</span>
-
-                                        <a href="{{route('resume.show' , $resume->id)}}" class="btn btn-outline-primary">Tolygyraq</a>
-                                    </div>
-                                </div>
-                            </div>
-                        @endif
-                    @endforeach
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Team Section -->
 
     <section id="cta" class="cta">
         <div class="container">
@@ -690,8 +651,8 @@
         <div class="container">
 
             <div class="section-title" data-aos="zoom-out">
-                <h2>Contact</h2>
-                <p>Contact Us</p>
+                <h2>Bailanys</h2>
+                <p>Bizben bailanys</p>
             </div>
 
             <div class="row mt-5">

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Adm;
 
 use App\Http\Controllers\Controller;
 use App\Models\City;
+use App\Models\Resume;
 use Illuminate\Http\Request;
 
 class CityController extends Controller
@@ -17,7 +18,7 @@ class CityController extends Controller
     }
 
     public function almaty(){
-        return view('city.almaty');
+        return view('city.almaty' , ['resumes' => Resume::all()]);
     }
 
     public function create()
